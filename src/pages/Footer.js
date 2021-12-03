@@ -15,9 +15,10 @@ const Footer = () => {
         <ContainerFooter fluid>
             <ContainerInfo >
                 <Col style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                    <Logotipo />
                 </Col>
                 <Menu>
-                    <Link to="/#navbar" style={{ textDecoration: "none" }}><ItemMenu>Inicio</ItemMenu></Link>
+                    <Link to="/#navbar" style={{ textDecoration: "none", color: "black" }}><ItemMenu>Inicio</ItemMenu></Link>
                     <Link to="/#solucao" style={{ textDecoration: "none" }}><ItemMenu>Solução</ItemMenu></Link>
                     <Link to="/#vantagens" style={{ textDecoration: "none" }}><ItemMenu>Vantagens</ItemMenu></Link>
                     <Link to="/#oQuePrecisa" style={{ textDecoration: "none" }}><ItemMenu>O que precisa?</ItemMenu></Link>

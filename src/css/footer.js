@@ -60,10 +60,10 @@ export const ItemMenu = styled.a`
 font-size: 16px;
 line-height: 20px;
 letter-spacing: 0.02em;
-color: #212529;
+color: #212529 !important;
 margin: 0px 10px;
 cursor: pointer;
-text-decoration: none;
+text-decoration: none !important;
 `
 
 export const Infos = styled(Col)`
