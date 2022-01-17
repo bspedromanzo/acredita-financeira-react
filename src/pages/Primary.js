@@ -82,6 +82,7 @@ import cash from '../assets/cash.png'
 import globe from '../assets/globe.png'
 import { Container, Col, Row } from 'react-bootstrap';
 import { Helmet } from "react-helmet";
+import imgFrase2 from '../assets/Image-Frase2.png'
 
 const Primary = () => {
 
@@ -111,6 +112,7 @@ const Primary = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Acredita Financeira</title>
+        <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16" />
       </Helmet>
       {/* Parte 1 */}
       <Banner>
@@ -163,8 +165,10 @@ const Primary = () => {
               </DivBtnGreyB>
             </DivFrase2Esq>
           </DivFrase2>
-          <Col>
-            <ImgFrase2 />
+          <Col style={{padding: 0}}>
+            <ImgFrase2>
+              <img src={imgFrase2} width='670'/>
+            </ImgFrase2>
           </Col>
         </Frase2>
       </ContainerBurocracia>

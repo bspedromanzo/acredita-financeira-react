@@ -19,6 +19,8 @@ padding: 10px;
     flex-direction: column;
     align-items: center;
     height: 1300px;
+    width: 100% !important;
+    margin: 0 !important;
   }
 `
 
@@ -128,6 +130,8 @@ flex-wrap: nowrap !important;
     flex-direction: column;
     align-items: center;
     height: 1700px;
+    width: 98% !important;
+    margin: 0 !important;
   }
 `
 
@@ -215,7 +219,11 @@ flex-direction: column;
 export const ImgFrase2 = styled.div`
 width: 732px;
 height: 710px;
-background: url(${imgFrase2})
+
+@media only screen and (max-width: 940px) {
+  width: 700px;
+  height: 700px;
+}
 `
 export const ImgFrase5 = styled.div`
 width: 610px;
@@ -361,6 +369,7 @@ position: static;
 width: 245px;
 height: 190px;
 margin: 20px 32px;
+padding: 0;
 
 `
 
@@ -426,6 +435,8 @@ align-items: center;
 @media only screen and (max-width: 940px) {
     flex-direction: column;
     height: 1300px;
+    width: 100% !important;
+    margin: 0 !important;
   }
 `
 
@@ -542,6 +553,8 @@ align-items: center;
 @media only screen and (max-width: 940px) {
     flex-direction: column;
     height: 1300px;
+    width: 100% !important;
+    margin: 0 !important;
   }
 `
 
@@ -652,7 +665,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-margin: 0px 0px;
+width: 100% !important;
+margin: 0 !important;
 `
 
 export const BgForm = styled.div`
@@ -668,6 +682,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 @media only screen and (max-width: 940px) {
     flex-direction: column;
     height: 1300px;
+    width: 100% !important;
+    margin: 0 !important;
   }
 `
 
