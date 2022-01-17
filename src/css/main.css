@@ -104,6 +104,10 @@ section {
 }
 body {
   line-height: 1;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 ol,
 ul {
